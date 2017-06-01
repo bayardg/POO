@@ -1,0 +1,9 @@
+Pour lancer une série de test, commencer par "make all"
+Puis :
+- "make exeMap1" pour tester le foctionnement du programme sur la carte carteSujet.map
+- "make exeMap2" pour " " " " " sur la carte desertOfDeath-20x20.map
+- "make exeMap3" pour " " " " " sur la cartemushroomOfHell-20x20.map
+- "make exeMap4" pour " " " " " :wspiralOfMadness-50x50.map
+- "make exeAStar" pour tester si un robot effectue bien un plus court chemin jusqu'à une case donnée
+- "make exeLecture" pour tester la lecture d'une carte (= parseur)7
+- "make exeSimulateur" pour tester le simulateur d'évènements, appliqué à l'ajout de plusieurs déplacements ainsi que s'assurer que le robot déplacé ne puisse pas sortir de la carte
